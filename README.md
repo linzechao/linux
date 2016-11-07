@@ -1,12 +1,17 @@
 # 1.Window与Linux不一致的地方
 > Linux区分大小写
+
 > Linux一切皆文件
+
 > Linux没有回收站，删了就是删了
 
 # 分区(挂载点)
 > / 根目录
+
 > /home 主目录
+
 > /boot 缓存目录
+
 > /swap 虚拟内存
 
 

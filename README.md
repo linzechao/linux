@@ -5,6 +5,7 @@
 
 > Linux没有回收站，删了就是删了
 
+
 # 分区(挂载点)
 > / 根目录
 
@@ -23,6 +24,7 @@ service network restart
 // 查看网络状态
 ifconfig
 ```
+
 
 # 权限
 ```

@@ -1,14 +1,14 @@
 ## 帮助命令
 > manual
-```
+```.bat
 man [命令]
 ```
 > 如：man man # man ls
-```
+```.bat
 man -f [命令] # 相当于：whatis [命令]
 ```
 > 查看和命令相关的所有帮助
-```
+```.bat
 man -k [命令] # 相当于：apropos [命令]
 ```
 
@@ -25,5 +25,17 @@ man -k [命令] # 相当于：apropos [命令]
 
 
 ## 其它
+> 帮助文档
+```.bat
+ls --help
+```
+> shell命令
+```.bat
+help
+info
+# ls
+# whereis
+# whatis
+```
 
 

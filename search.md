@@ -1,6 +1,6 @@
 ### 文件搜索
 > locate
-```.bat
+```bash
 locate [文件名]
 ```
 * 在/var/lib/mlocate
@@ -18,20 +18,20 @@ locate [文件名]
 
 ### 搜索命令所在位置
 > whereis(默认带 -bm)
-```.bat
+```bash
 whereis [命令名]
 ```
 * -b 只查找可执行命令
 * -m 帮助文档所在目录
 * which(查看缩写命令)
 
-```.bat
+```bash
 which ll
 ```
 
 
 ### 我是谁？
-```.bat
+```bash
 whoami
 ```
 ### 该命令干嘛的？ 
@@ -44,7 +44,7 @@ whatis [命令名]
 
 ### 文件搜索
 > find(完全匹配)
-```.bat
+```bash
 find [范围] [条件]
 ```
 * -name [文件名]
@@ -58,7 +58,7 @@ find [范围] [条件]
 * ? # 一个字符
 > [] 匹配任意一个中括号内的字符
 
-```.bat
+```bash
 atime # 文件访问时间
 ctime # 改变文件属性
 mtime # 修改文件内容
@@ -72,7 +72,7 @@ mtime # 修改文件内容
 * k: 千字节、M：兆字节(默认单位：数据块)
 * -inum [i字节]
 
-```.bat
+```bash
 find / -size +20k -a -size -50k
 -a # and 逻辑与
 -o # or 逻辑或
@@ -85,7 +85,7 @@ find / -size +20k -a -size -50k
 
 ### 搜索字符串命令
 > grep
-```.bat
+```bash
 grep [选项] 字符串 文件名
 ```
 > -i # 忽略大小写

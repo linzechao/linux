@@ -1,33 +1,25 @@
 ### 保存数据关机(推荐使用)
-> shutdown [选项] 时间
-```.bat
--c # 取消前一个关机命令
--h # 关机
--r # 重启
+> shutdown [-chr] 时间
+* -c 取消前一个关机命令
+* -h 关机
+* -r 重启
 
-now # 当前时间(格式：12:30)
-& # 不占用当前命令行时间
-```
+* now 当前时间(格式：12:30)
+* & 不占用当前命令行时间
 
-> 查看当前时间
-```.bat
-date
-```
+### 查看当前时间
+> date
 
 
 ### 不保存关机(不推荐)
-```.bat
-halt
-poweroff
-init 0
-```
+> halt
+> poweroff
+> init 0
 
 
 ### 其他重启命令(不推荐)
-```.bat
-reboot
-init 6
-```
+> reboot
+> init 6
 
 
 ### 系统运行级别
@@ -41,14 +33,10 @@ init 6
 
 
 ### 查询运行级别
-```.bat
-runlevel
-```
+> runlevel
 
 
 ### 退出命令
-```.bat
-logout
-```
+> logout
 
 

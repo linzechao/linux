@@ -1,16 +1,14 @@
 ## 帮助命令
 > manual
-```.bat
-man [命令]
-```
-> 如：man man # man ls
-```.bat
-man -f [命令] # 相当于：whatis [命令]
-```
+> > man [-fk] [命令]
+> > 如：man man # man ls
+
+> man -f [命令] 
+> > 相当于：whatis [命令] 
+
 > 查看和命令相关的所有帮助
-```.bat
-man -k [命令] # 相当于：apropos [命令]
-```
+> > man -k [命令]
+> > 相当于：apropos [命令]
 
 > man的级别(使用man后，第一行括号里的数字)
 1. 查看命令的帮助
@@ -26,11 +24,10 @@ man -k [命令] # 相当于：apropos [命令]
 
 ## 其它
 > 帮助文档
-```.bat
-ls --help
-```
+> > ls --help
+
 > shell命令
-```.bat
+```bash
 help
 info
 # ls

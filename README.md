@@ -1,3 +1,14 @@
+### 使用虚拟机安装CentOS
+1.网络设置
+* 记得把[自动连接]打钩
+2.硬盘分区
+* /home 2000Mb
+* /boot 200Mb
+* /swap 1000Mb
+* / 剩余
+
+
+
 ### 1.Window与Linux不一致的地方
 * Linux区分大小写
 * Linux一切皆文件

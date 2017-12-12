@@ -22,6 +22,6 @@ echo $SHELL
 \xhh # 16进制ASCLL码
 ```
 
-
+1.脚步文件的第一行“#!”开头为指明使用Shell版本
 
 

@@ -49,5 +49,3 @@ echo 'string length='${#string}
 echo 'is index='`expr index "$string" is`
 
 echo '--------------------'
-
-

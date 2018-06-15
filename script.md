@@ -15,5 +15,3 @@ echo -e "\e[1;34m 天上掉下个林妹妹 \e[0m"
 
 ### 通过bash调用执行脚本
 > bash print.sh
-
-

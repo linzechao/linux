@@ -53,4 +53,3 @@
 **问题**
 1.删除虚拟主机时，.user.ini删不掉，
 > chattr -i .user.ini
-

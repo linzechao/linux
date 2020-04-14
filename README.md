@@ -18,6 +18,7 @@
 1.连接失败
 > 可能(/usr/sbin/sshd)丢失
 > [参考](http://codingstandards.iteye.com/blog/1558394)
+> ssh 连接不上，可删除 ~/.ssh/known_hosts
 
 
 # 安装LNMP

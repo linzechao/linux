@@ -1,3 +1,20 @@
+# 安装 nvm
+
+* wget 获取不到数据
+* curl 403 无法访问
+
+解决办法：clone nvm 仓库下来，切分支，然后调用目录下的 `./install.sh`，再重启 `source ~/.bashrc`
+
+# 清除内存中的缓存
+[CNBLOG](https://www.cnblogs.com/rocky-AGE-24/p/7629500.html)
+``` bash
+echo 1 > /proc/sys/vm/drop_caches
+```
+
+# nginx
+[安装](https://www.cnblogs.com/jimisun/p/8057156.html)
+
+
 # 云服务器：公网IP(112.74.52.6)
 **问题**
 1.无法通过ip访问
